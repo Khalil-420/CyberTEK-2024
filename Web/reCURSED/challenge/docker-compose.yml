@@ -1,0 +1,18 @@
+version: '3'
+
+
+
+services:
+
+  recursive:
+
+    build:
+
+      context: .
+
+      dockerfile: Dockerfile
+
+    ports:
+
+      - "5000:5000"
+

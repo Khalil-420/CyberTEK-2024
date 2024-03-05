@@ -18,3 +18,6 @@ Specify if you want the sources public or not.
 ## Solver
 Writeup about your challenge
 - [solver.py](./solver.py)
+
+## Flag
+Securinets{USE_THIS_FORMAT}

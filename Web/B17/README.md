@@ -15,3 +15,6 @@ I made this application, It ll help me organize my money.
 
 ## Solver
 `In python 1e31 - 1337 == 1e31` (1e31 is just an example of big number)
+
+## Flag
+- Securinets{EVERYONE_BETRAYS_US!__JINX}

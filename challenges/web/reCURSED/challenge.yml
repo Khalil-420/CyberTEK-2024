@@ -1,10 +1,10 @@
-name: "Random Quotes"
-author: "xhalyl, GremlinBoi"
+name: "reCURSED"
+author: "xhalyl"
 category: web
 description: |-
   ![wow](https://i.imgur.com/knYWVyd.gif)
 
-  **author**: xhalyl, GremlinBoi
+  **author**: xhalyl
 value: 500
 type: dynamic
 extra:
@@ -12,7 +12,7 @@ extra:
   decay: 50
   minimum: 50
 flags:
-  - Securinets{N0T_S0_R4ND0M_4FT3R_4LL!}
+  - Securinets{CL0S3_TH3_D00R_N3XT_TIME!}
 files:
   - handout/web_recursed.7z
 state: visible

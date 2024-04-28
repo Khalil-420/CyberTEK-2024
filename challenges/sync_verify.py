@@ -10,7 +10,7 @@ for category in categories:
                 continue
             else:
                 print(f"[+] Installing challenge: {challenge}")
-                os.system(f"python3 -m ctfcli challenge add \"{challenge}\" && python3 -m ctfcli challenge install \"{challenge}\"")    
+                os.system(f"python3 -m ctfcli challenge sync \"{challenge}\" && python3 -m ctfcli challenge verify \"{challenge}\"")    
     else:
         print(f"[-] Cant find : {category}")
         exit(1)

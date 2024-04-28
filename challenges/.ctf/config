@@ -3,4 +3,12 @@ url = http://20.90.95.196:8000
 access_token = ctfd_f1d8c08d8054549d9fd5cd6686de7c8ceb04f3a20512165515539f9ac24c2fd4
 
 [challenges]
+web/reCURSED = web/reCURSED
+web/Random Quotes = web/Random Quotes
+web/B17 = web/B17
+crypto/Prideful Revenge = crypto/Prideful Revenge
+misc/LEE SIN = misc/LEE SIN
+misc/test-chal = misc/test-chal
+misc/PERMS = misc/PERMS
+misc/Heimerdinger = misc/Heimerdinger
 

@@ -1,0 +1,21 @@
+name: "B17"
+author: "xhalyl"
+category: web
+description: |-
+  I made this application, It ll help me organize my money
+
+  **author**: xhalyl
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{EVERYONE_BETRAYS_US!__JINX}
+#tags:
+#  - easy
+files:
+  - handout/web_b17.7z
+state: visible
+version: "0.1"

@@ -1,0 +1,13 @@
+version: '3'
+services:
+  challenge:
+    container_name: random-quotes
+    restart: unless-stopped
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - "3002:5000"
+    environment:
+      FLAG: "Securinets{N0T_S0_R4ND0M_4FT3R_4LL!}"
+ 

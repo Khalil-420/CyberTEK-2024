@@ -1,0 +1,19 @@
+name: "Random Quotes"
+author: "xhalyl, GremlinBoi"
+category: web
+description: |-
+  ![wow](https://i.imgur.com/knYWVyd.gif)
+
+  **author**: xhalyl, GremlinBoi
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{N0T_S0_R4ND0M_4FT3R_4LL!}
+files:
+  - handout/web_recursed.7z
+state: visible
+version: "0.1"

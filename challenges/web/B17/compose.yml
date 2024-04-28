@@ -1,0 +1,13 @@
+version: '3'
+services:
+  challenge:
+    container_name: b17
+    restart: unless-stopped
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - "3001:5000"
+    environment:
+      FLAG: "Securinets{EVERYONE_BETRAYS_US!__JINX}"
+ 

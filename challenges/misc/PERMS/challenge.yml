@@ -1,0 +1,21 @@
+name: "PERMS"
+author: "xhalyl"
+category: misc
+description: |-
+  ![permissions](https://i.imgur.com/0pC828l.png) 
+
+  **author**: xhalyl
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{P3RM5_3V3RYWH3RE!}
+#tags:
+#  - easy
+files:
+  - handout/misc_perms.7z
+state: visible
+version: "0.1"

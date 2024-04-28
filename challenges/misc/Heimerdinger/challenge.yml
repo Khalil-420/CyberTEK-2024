@@ -1,0 +1,23 @@
+name: "HEIMERDINGER"
+author: "xhalyl"
+category: misc
+description: |-
+  Heimer left his door open , I came in.
+  I found this strange file and some maths : f(byte) = (15 - byte) modulos 256
+  Can you solve his riddle?
+
+  **author**: xhalyl
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{P3RM5_3V3RYWH3RE!}
+#tags:
+#  - easy
+files:
+  - handout/misc_corrupted.7z
+state: visible
+version: "0.1"

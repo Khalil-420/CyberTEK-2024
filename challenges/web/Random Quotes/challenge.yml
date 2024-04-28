@@ -1,0 +1,21 @@
+name: "Random Quotes"
+author: "xhalyl, GremlinBoi"
+category: web
+description: |-
+  A Wise man once said : "Welcome To Summoner's Rift!"
+
+  **author**: xhalyl, GremlinBoi
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{N0T_S0_R4ND0M_4FT3R_4LL!}
+#tags:
+#  - easy
+files:
+  - handout/web_random-quotes.7z
+state: visible
+version: "0.1"

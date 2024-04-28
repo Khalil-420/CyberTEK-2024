@@ -1,0 +1,21 @@
+name: "test"
+author: "test"
+category: test
+description: |-
+  test
+
+  **author**: test
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{test-chall}
+#tags:
+#  - easy
+files:
+  - handout/category_chall-name.7z
+state: visible
+version: "0.1"

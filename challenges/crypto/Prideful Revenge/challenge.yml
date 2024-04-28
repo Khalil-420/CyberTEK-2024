@@ -1,0 +1,21 @@
+name: "Prideful Revenge"
+author: "GremlinBoi"
+category: crypto
+description: |-
+  Naught but an itch.
+
+  **author**: GremlinBoi
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{1_50n'T_f33l_h4T435_0n1y_p1Ty}
+#tags:
+#  - easy
+files:
+  - handout/crypto_prideful-revenge.7z
+state: visible
+version: "0.1"

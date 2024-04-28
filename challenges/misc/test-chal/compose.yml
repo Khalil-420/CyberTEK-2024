@@ -1,0 +1,11 @@
+version: '3'
+services:
+  challenge:
+    container_name: test-chal
+    restart: unless-stopped
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    environment:
+      FLAG: "Securinets{}"
+ 

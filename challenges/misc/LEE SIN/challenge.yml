@@ -1,0 +1,19 @@
+name: "LEE SIN"
+author: "xhalyl"
+category: misc
+description: |-
+  Join the discord server , and meet LEE SIN 🥷
+
+  **author**: xhalyl
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{i_see_all!}
+#tags:
+#  - easy
+state: visible
+version: "0.1"

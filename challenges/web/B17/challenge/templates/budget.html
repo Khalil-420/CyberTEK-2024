@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Your Budget</h1>
+        </div>
+        <p>Your budget: ${{ user_budget }}</p>
+        <div class="form">
+            <form action="{{ url_for('budget') }}" method="post">
+                <label for="travel">Travel:</label>
+                <input type="number" id="travel" name="travel" value="0" min="0" required>
+                <br>
+                <label for="food">Food:</label>
+                <input type="number" id="food" name="food" value="0" min="0" required>
+                <br>
+                <label for="entertainment">Entertainment:</label>
+                <input type="number" id="entertainment" name="entertainment" value="0" min="0" required>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <h2>Budget Breakdown : </h2>
+        <br>
+        <p>Travel Budget: ${{ travel_expense }}</p>
+        <br>
+        <p>Food Budget: ${{ food_expense }}</p><br>
+        <p>Entertainment Budget: ${{ entertainment_expense }}</p><br>
+        <div class="form">
+            <form action="{{ url_for('buy_flag') }}" method="post">
+                <button type="submit" class="button">Buy Flag</button>
+            </form>
+                </div>
+                {% if error %}
+    <p class="error">{{ error }}</p>
+{% elif message %}
+    <p class="message">{{ message }}</p>
+{% endif %}
+    </div>
+</body>
+</html>

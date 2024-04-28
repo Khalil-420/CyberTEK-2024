@@ -8,14 +8,6 @@ This repository contains the challenges of Securinets TEK-UP CTF 2024
   - `Securinets{test_flag}`
 - Event duration: `12hrs`
 
-## Running challenges
-
-Scripts folder contains init files to restart/start challenges
-
-```sudo ./http.sh```
-
-```sudo ./tcp.sh```
-
 ## Pull request
 
 before you make ur changes

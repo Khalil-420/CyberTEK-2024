@@ -1,0 +1,21 @@
+name: "openheimer"
+author: "chxmxii"
+category: misc
+description: |-
+  terraform's good, but have you tried opentofu?
+
+  **author**: chxmxii
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{aLl_7h3_wAYS_l3Ad5_70_0n3_s3CR37}
+#tags:
+#  - easy
+files:
+  - handout/misc_openheimer.7z
+state: visible
+version: "0.1"

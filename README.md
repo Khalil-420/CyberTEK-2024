@@ -10,6 +10,8 @@ This repository contains the challenges of Securinets TEK-UP CTF 2024
 
 ## Pull request
 
+# PLS DO NOT PUSH TO MASTER/MAIN MAKE PR FIRST
+
 before you make ur changes
 
 ```

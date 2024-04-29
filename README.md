@@ -17,7 +17,8 @@ git branch <challenge>
 ```
 
 ```
-git add .
+git add . -A
+git commit -m "<category>_<challenge_name>"
 git push origin <challenge>
 ```
 then you can visit the repo on your browser and you should find a button to make a pull request

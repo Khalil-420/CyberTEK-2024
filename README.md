@@ -19,7 +19,7 @@ git branch <challenge>
 ```
 
 ```
-git add . -A
+git add .
 git commit -m "<category>_<challenge_name>"
 git push origin <challenge>
 ```

@@ -32,7 +32,12 @@ using ctfcli we can update challenges easily (example: change description in cha
 ```
 python3 -m ctfcli sync <challenge>
 ```
+## Port range
 
+- Misc: 1000 - 1500
+- Web: 1500 - 3000
+- Pwn:  6000 - 7000
+- Crypto: 8000 - 9000
 
 ## Challenges
 

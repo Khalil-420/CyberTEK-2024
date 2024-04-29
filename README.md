@@ -8,7 +8,7 @@ This repository contains the challenges of Securinets TEK-UP CTF 2024
   - `Securinets{test_flag}`
 - Event duration: `12hrs`
 
-## Pull request
+## Add a challenge
 
 # PLS DO NOT PUSH TO MASTER/MAIN MAKE PR FIRST
 

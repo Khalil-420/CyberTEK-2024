@@ -1,5 +1,5 @@
-# B17
+# Prideful Revenge
 
 ## Notes
 
-- @xhalyl: ..
+- @GremlinBoi: Tested, works

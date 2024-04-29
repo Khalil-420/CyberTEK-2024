@@ -1,0 +1,10 @@
+version: '3'
+services:
+  deploy:
+    container_name: retr0GPT
+    restart: unless-stopped
+    build:
+      context: ./deploy
+      dockerfile: Dockerfile
+    ports:
+      - "1337:5000" 

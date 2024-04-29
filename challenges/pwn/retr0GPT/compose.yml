@@ -4,7 +4,8 @@ services:
     container_name: retr0GPT
     restart: unless-stopped
     build:
-      context: ./deploy
+      context: ./challenge
       dockerfile: Dockerfile
     ports:
-      - "1337:5000" 
+      - "1337:5000"
+    privileged: true 

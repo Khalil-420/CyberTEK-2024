@@ -1,0 +1,21 @@
+name: "ATOMIC"
+author: "GremlinBoi"
+category: crypto
+description: |-
+  The frenzy has begun. The moon is red. We are out of time. 
+
+  **author**: GremlinBoi
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{1f_y0U_D0N7_W4N7_70_83_V4p0R123D_1N_4_nuCl34R_3xPL0510N.83C0m3_NUcL34R_Y0Ur53LFFF}
+#tags:
+#  - medium
+files:
+  - handout/crypto_atomic.zip
+state: visible
+version: "0.1"

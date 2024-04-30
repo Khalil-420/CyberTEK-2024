@@ -1,0 +1,24 @@
+name: "A Different Breed"
+author: "GremlinBoi"
+category: crypto
+description: |-
+  - Why isn't it possible?
+  - It's just not.
+  - Why not, you stupid bastard?
+
+
+  **author**: GremlinBoi
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{gOWes%XBgwNL-N-I-C-E}
+#tags:
+#  - medium
+files:
+  - handout/crypto_a-different-breed.zip
+state: visible
+version: "0.1"

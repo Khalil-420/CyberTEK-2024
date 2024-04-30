@@ -26,7 +26,7 @@ ls -Ra / | grep *flag*
 okay, now we know that the flag is a hidden file. how can we get its absolute path? `ls -Ra` already shows us the absolute path for the file but is filtered because of the grep command. use the `-B3` option to show the last 3 lines before `.flag`  
 
 ``` 
-ls -Ra / | grep *flag* -B3
+ls -Ra / | grep flag -B3
 <path>:
 .
 ..

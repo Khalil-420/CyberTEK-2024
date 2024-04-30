@@ -7,4 +7,4 @@ services:
     build:
       context: ./challenge
     ports:
-      - "22222:22222"
+      - "1337:1337"

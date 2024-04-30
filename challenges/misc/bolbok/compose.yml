@@ -1,0 +1,10 @@
+version: '3'
+services:
+  challenge:
+    container_name: bolbok
+    privileged: true
+    restart: unless-stopped
+    build:
+      context: ./challenge
+    ports:
+      - "22222:22222"

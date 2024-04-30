@@ -1,0 +1,21 @@
+name: "Holes In Reality"
+author: "GremlinBoi"
+category: crypto
+description: |-
+  There are holes in reality... And every system !
+
+  **author**: GremlinBoi
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{62bf2e7e4cb17b189e052650f9bd4aaa25d92047}
+#tags:
+#  - medium
+files:
+  - handout/crypto_holes-in-reality.zip
+state: visible
+version: "0.1"

@@ -1,5 +1,7 @@
 # Classic RSA 1
 
-## Notes
+## Description
 
-- @GremlinBoi: Tested, works
+  It's just a classic RSA challenge I promise.
+
+  **author**: GremlinBoi

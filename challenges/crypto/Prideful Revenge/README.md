@@ -1,5 +1,7 @@
 # Prideful Revenge
 
-## Notes
+## Description
 
-- @GremlinBoi: Tested, works
+  Naught but an itch.
+
+  **author**: GremlinBoi

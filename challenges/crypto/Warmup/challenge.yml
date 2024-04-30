@@ -1,0 +1,21 @@
+name: "Warmup"
+author: "GremlinBoi"
+category: crypto
+description: |-
+  We don't try to understand the sense it doesn't make, so we're trying to share that with you. You're welcome.
+
+  **author**: GremlinBoi
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{e0c11bff1d7df4bdc970f906167f8984e3256be3}
+#tags:
+#  - easy
+files:
+  - handout/crypto_warmup.zip
+state: visible
+version: "0.1"

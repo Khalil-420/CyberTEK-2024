@@ -1,5 +1,7 @@
 # Classic RSA 2
 
-## Notes
+## Description
 
-- @GremlinBoi: Tested, works
+  Nothing out of the ordinary...
+
+  **author**: GremlinBoi

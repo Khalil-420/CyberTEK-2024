@@ -1,5 +1,10 @@
 # A Different Breed
 
-## Notes
+## Description
 
-- @GremlinBoi: Tested, works. Further Testing required just to be absolutely certain.
+  - Why isn't it possible?
+  - It's just not.
+  - Why not, you stupid bastard?
+
+
+  **author**: GremlinBoi

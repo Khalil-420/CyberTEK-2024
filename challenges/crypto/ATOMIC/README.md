@@ -1,5 +1,7 @@
 # ATOMIC
 
-## Notes
+## Description
 
-- @GremlinBoi: Tested, works
+  The frenzy has begun. The moon is red. We are out of time. 
+
+  **author**: GremlinBoi

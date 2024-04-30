@@ -3,7 +3,8 @@
 
 ### Description;
 
-Bolbok is really scared of the arcane and has hidden his secret in this system within rbash. but no one knows where.
+Bolbok is scared of the arcane and has hidden his secret in this **restricted shell**.
+
 
 Connect via: `nc <ip> 22222`
 

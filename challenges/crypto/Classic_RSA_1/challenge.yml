@@ -1,0 +1,21 @@
+name: "Classic RSA 1"
+author: "GremlinBoi"
+category: crypto
+description: |-
+  It's just a classic RSA challenge I promise.
+
+  **author**: GremlinBoi
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - SecuriNets{f69077fb2d4bfafdb30d0c2d8f5def7c01bc35fbbc6a575c7b}
+#tags:
+#  - easy
+files:
+  - handout/crypto_classic-rsa1.zip
+state: visible
+version: "0.1"

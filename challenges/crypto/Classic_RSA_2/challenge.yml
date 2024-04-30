@@ -1,0 +1,21 @@
+name: "Classic RSA 2"
+author: "GremlinBoi"
+category: crypto
+description: |-
+  Nothing out of the ordinary...
+
+  **author**: GremlinBoi
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{6cbe3a9f2e97c2f0f2e5}
+#tags:
+#  - easy
+files:
+  - handout/crypto_classic-rsa2.zip
+state: visible
+version: "0.1"

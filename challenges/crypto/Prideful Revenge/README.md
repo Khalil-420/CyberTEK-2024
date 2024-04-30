@@ -1,5 +1,7 @@
-# B17
+# Prideful Revenge
 
-## Notes
+## Description
 
-- @xhalyl: ..
+  Naught but an itch.
+
+  **author**: GremlinBoi

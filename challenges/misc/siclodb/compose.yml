@@ -1,0 +1,11 @@
+version: '3'
+services:
+  challenge:
+    container_name: siclodb
+    restart: unless-stopped
+    build:
+      context: ./challenge
+    ports:
+      - "1499:1499"
+    environment:
+      FLAG: "Securinets{yE4h_1K1K_KEYD8_15_8E77ER_:))}"

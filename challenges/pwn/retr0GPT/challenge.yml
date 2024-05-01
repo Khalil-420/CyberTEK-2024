@@ -8,9 +8,9 @@ description: |-
 value: 500
 type: dynamic
 extra:
-     initial: 500
-     decay: 100
-     minimum: 100
+  initial: 500
+  decay: 20
+  minimum: 10
 flags:
     - Securinets{e67e47e6b00f5477496113d68286cadf021996e9f6e4da191ee4dbf5af19af8b}
 files:

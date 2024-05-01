@@ -25,4 +25,4 @@ $ eval "local a='du'; a=a..'mp';local b='fl';b=b..'ag'; local k=redis.call(a, b)
 $ eval "local a='ge'; a=a..'t';local b='fl';b=b..'ag'; return cjson.encode(redis.call(a, b))" 0
 ```
 
-hope there is unintended for this :').
+hope there is no unintended for this :').

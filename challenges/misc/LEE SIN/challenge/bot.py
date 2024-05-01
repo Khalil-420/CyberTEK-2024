@@ -29,36 +29,17 @@ authenticated_members = set()
 
 bot.remove_command('help')
 
-def in_private_message(ctx):
-    return isinstance(ctx.channel, discord.DMChannel)
 
 @bot.event
 async def on_ready():
     print(f'Logged in as {bot.user}')
 
-@bot.event
-async def on_message(message):
-   if isinstance(message.channel, discord.DMChannel):
-    if message.author == bot.user:
-        return
-    if not message.content.startswith('!'):
-        quotes = [
-            "My sight may be gone, but my vision holds true.",
-            "Enlightenment is knowing the value of one's ignorance.",
-            "The dragon must be unleashed, or it will consume me from within.",
-            "The marks on my body are not warnings; they are reminders of the burden I bear.",
-            "Enough blind jokes. Stop asking for more.",
-            "I fail to see humor in that.",
-            "The dragon sleeps, for now."
-        ]
-        random_quote = random.choice(quotes)
-        await message.channel.send(random_quote)
-    await bot.process_commands(message)
 
 @bot.command(name='help')
 async def custom_help(ctx):
     help_message = """
-    *Custom Help Command*:```
+    *Help Command*:```
+ !help (Shows this message)
  !auth password  (Authenticate with a password)
  !flag  (Display the flag)```
     """

@@ -1,0 +1,21 @@
+name: "Don't Give UP"
+author: "S4L1M"
+category: Reverse
+description: |-
+  The determination is the key to success .
+
+  **author**: S4L1M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{D1N4M1C_AN4L1sys_I$_N0t_H4Rd}
+#tags:
+#  - Medium
+files:
+  - handout/chall
+state: visible
+version: "0.1"

@@ -1,0 +1,22 @@
+name: "Cassiopeia"
+author: "S4L1M"
+category: Reverse
+description: |-
+  Our game is broken | Cassiopeia's right foot is fractured |  , Fix it and Win 
+  Flag Format : Securinets{Winning Message}  .
+
+  **author**: S4L1M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{D0_n0t_t3mpt_4_v1p3r}
+#tags:
+#  - Medium
+files:
+  - handout/Cassiopeia.exe
+state: visible
+version: "0.1"

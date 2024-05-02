@@ -1,5 +1,2 @@
 #!/bin/bash
-
-while true; do
-    socat TCP-LISTEN:1499,reuseaddr,fork SYSTEM:'sh keydb.sh'
-done
+/home/ctf/ynetd -p 1337 /home/ctf/keydb.sh

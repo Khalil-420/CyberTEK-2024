@@ -10,7 +10,7 @@ import (
 )
 
 var (
-    nopp = `🙀🙀🙀🙀🙀`
+    nopp = `❌❌ Not for you lol ❌❌`
     blacklist  = []string{"get","flag","keydb","set","getrange","mget","exists","dump","del","hset","hget","substr","append","keys","scan"}
 )
 
@@ -48,7 +48,7 @@ func getUserCmd() []string {
 
 func execKeydbCli(command []string) {
     for _, command := range command {
-        cmd := exec.Command("keydb-cli")
+        cmd := exec.Command("/usr/local/bin/keydb-cli")
         cmd.Stdin = strings.NewReader(command)
         output, err := cmd.CombinedOutput()
         if err != nil {

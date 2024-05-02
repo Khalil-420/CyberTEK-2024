@@ -11,8 +11,8 @@ banner="
  ____/ _| \___| _| \___/  \__,_| ____/             
 "
 
-echo "$banner"
-echo "${BLUE}${BLINK}[*] salve! welc to keydb 😸😸.${NC}"
-keydb-server > /dev/null 2>&1
-sh setkeys.sh > /dev/null
-/home/ctf/main
+echo -e "$banner"
+echo -e "${BLUE}${BLINK}[*] salve! welc to keydb 😸😸.${NC}"
+keydb-server >/dev/null 2>&1
+/home/ctf/challenge/setkeys.sh > /dev/null 2>&1
+/home/ctf/challenge/siclodb

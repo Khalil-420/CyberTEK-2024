@@ -4,6 +4,8 @@ category: pwn
 description: |-
   warming up the engines.
 
+  `nc retrogpt.securinets-tekup.tech`
+  
   **author**: retr0
 value: 500
 type: dynamic

@@ -4,6 +4,8 @@ category: misc
 description: |-
   terraform's good, but have you tried opentofu?
 
+  `nc openheimer.securinets-tekup.tech`
+
   **author**: chxmxii
 value: 500
 type: dynamic

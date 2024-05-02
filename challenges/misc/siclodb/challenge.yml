@@ -1,0 +1,19 @@
+name: "siclodb"
+author: "chxmxii"
+category: misc
+description: |-
+  uk redis is nolonger opensource. try keydb u will like it :))
+  
+  **author**: chxmxii
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{yE4h_1K1K_KEYD8_15_8E77ER_:))}
+#tags:
+#  - easy
+state: visible
+version: "0.1"

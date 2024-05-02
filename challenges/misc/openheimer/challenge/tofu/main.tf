@@ -4,4 +4,6 @@ terraform {
 
 variable "SECRET" {
   type = string
+  sensitive = true
+  description = "i keep my secrets safe here :))"
 }

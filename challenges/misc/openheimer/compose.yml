@@ -6,6 +6,6 @@ services:
     build:
       context: ./challenge
     ports:
-      - "13337:13337"
+      - "1010:13337"
     environment:
       TF_VAR_SECRET: "Securinets{aLl_7h3_wAYS_l3Ad5_70_0n3_s3CR37}"

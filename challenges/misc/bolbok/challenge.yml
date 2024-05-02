@@ -4,7 +4,7 @@ category: misc
 description: |-
   Bolbok is scared of the arcane and has hidden his secret in this **restricted shell**.
 
-  Connect via: `nc <ip> 22222`
+  `nc bolbok.securinets-tekup.tech`
   
   **author**: chxmxii
 value: 500

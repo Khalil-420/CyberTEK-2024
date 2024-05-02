@@ -1,0 +1,11 @@
+version: '3'
+services:
+  challenge:
+    container_name: psyducklove
+    restart: unless-stopped
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - "2337:1337"
+    privileged: true

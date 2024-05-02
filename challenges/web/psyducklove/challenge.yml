@@ -1,0 +1,19 @@
+name: "psyducklove"
+author: "j3seer"
+category: web
+description: |-
+  i bet kalmarunionen would love my new website ^^
+  
+  **author**: j3seer
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{psyduck_1s_z4_b3st}
+files:
+  - handout/web_psyducklove.7z
+state: visible
+version: "0.1"

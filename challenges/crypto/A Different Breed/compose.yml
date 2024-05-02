@@ -1,0 +1,10 @@
+version: '3'
+services:
+  challenge:
+    container_name: a-different-breed
+    restart: unless-stopped
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - "8001:1337"

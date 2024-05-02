@@ -4,7 +4,7 @@ category: misc
 description: |-
   Bolbok is scared of the arcane and has hidden his secret in this **restricted shell**.
 
-  `nc bolbok.securinets-tekup.tech`
+  `nc pwned.securinets-tekup.tech 1005`
   
   **author**: chxmxii
 value: 500

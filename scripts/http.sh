@@ -1,5 +1,4 @@
-if [ "$EUID" -ne 0 ]
-  then echo "Please run as root"
-  exit
-fi
-
+docker compose up -f '../challenges/web/B17/compose.yml' -d
+docker compose up -f '../challenges/web/Random Quotes/compose.yml' -d
+docker compose up -f '../challenges/web/reCURSED/compose.yml' -d
+docker compose up -f '../challenges/web/psyducklove/compose.yml' -d

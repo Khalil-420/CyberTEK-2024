@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 YELLOW='\033[38;5;226m'
 NC='\033[0m'
@@ -10,5 +10,5 @@ banner="
 "
 
 echo  "$banner"
-echo -e "${YELLOW}[*] Hola! welcome to opentofu console.${NC}"
-/home/ctf/main
+echo "${YELLOW}[*] Hola! welcome to opentofu console.${NC}"
+/app/challenge/openheimer

@@ -1,0 +1,19 @@
+name: "siclodb"
+author: "chxmxii"
+category: misc
+description: |-
+  `ls` & `cat` made easy.
+  
+  **author**: chxmxii
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+  - Securinets{y43h_n0w_U_Kn0W_Wh4T_15_917_bL0bS}
+#tags:
+#  - easy
+state: visible
+version: "0.1"

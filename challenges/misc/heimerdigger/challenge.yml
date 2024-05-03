@@ -1,0 +1,21 @@
+name: "HEIMERDIggER"
+author: "xhalyl,chxmxii"
+category: misc
+description: |-
+  
+
+  **author**: xhalyl,chxmxii
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{HEIMER_IS_PROUD}
+#tags:
+#  - easy
+files:
+  - handout/misc_heimerdigger.7z
+state: visible
+version: "0.1"

@@ -1,0 +1,28 @@
+version: '2'
+services: 
+  db:
+    build: db
+    networks:
+      custom_net:
+        ipv4_address: 172.24.99.5
+    environment:
+      - MYSQL_USER=ctf
+      - MYSQL_PASSWORD="Jie2Roh8ohre3Ahn"
+      - MYSQL_DATABASE=ctf
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+   
+  www:
+    build: web
+    networks:
+      custom_net:
+        ipv4_address: 172.24.99.6
+    ports:
+        - "5007:80"
+    depends_on:
+        - db
+networks:
+  custom_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.24.99.0/24

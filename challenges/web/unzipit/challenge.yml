@@ -1,0 +1,17 @@
+name: "UNZIPIT"
+author: "kirraTN"
+category: web
+description: |-
+  I heard that the flag is located at: /var/www/html/flag.php ,don't tell anyone.
+
+  **author**: kirraTN
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{https://linkedin.com/posts/rayen-salem-14aa38208_activity-7188475650775670786-Nzf6}
+state: visible
+version: "0.1"

@@ -1,0 +1,21 @@
+name: "heapStar"
+author: "retr0"
+category: pwn
+description: |-
+  i can allocate any size, is this bad ?
+  could you show me how2heap ?
+
+  nc 0.0.0.0 1339
+  **author**: retr0
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Securinets{f4a7f0aeb5837af624db0464baf9d6a39e17b843b06a3fd2167174b028185207}
+files:
+  - handout/pwn_heapStar.7z
+state: visible
+version: "0.1"

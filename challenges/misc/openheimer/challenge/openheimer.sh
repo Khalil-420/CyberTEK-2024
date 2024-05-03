@@ -9,6 +9,6 @@ banner="
 \__/ |    |___ | \| |  | |___ |  |  | |___ |  \ 
 "
 
-echo  "$banner"
-echo "${YELLOW}[*] Hola! welcome to opentofu console.${NC}"
+echo -e "$banner"
+echo -e "${YELLOW}[*] Hola! welcome to opentofu console.${NC}"
 /app/challenge/openheimer

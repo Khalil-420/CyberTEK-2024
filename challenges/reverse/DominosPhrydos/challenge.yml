@@ -1,0 +1,20 @@
+name: "DominosPhrydos"
+author: "S4L1M"
+category: rev
+description: |-
+  Could you conquer the challenge and decode the Android mystery? .
+  **author**: S4L1M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+flags:
+  - Securinets{FR1D4_H0oK_4ll_Th3_Th1ngs$}
+#tags:
+#  - Hard
+files:
+  - handout/Dominos.zip
+state: visible
+version: "0.1"

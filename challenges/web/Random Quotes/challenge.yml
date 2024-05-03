@@ -4,13 +4,15 @@ category: web
 description: |-
   A Wise man once said : "Welcome To Summoner's Rift!"
 
+  https://random-quotes.securinets-tekup.tech
+  
   **author**: xhalyl, GremlinBoi
 value: 500
 type: dynamic
 extra:
   initial: 500
-  decay: 50
-  minimum: 50
+  decay: 20
+  minimum: 10
 flags:
   - Securinets{N0T_S0_R4ND0M_4FT3R_4LL!}
 #tags:

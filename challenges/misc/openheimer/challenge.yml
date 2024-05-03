@@ -9,10 +9,10 @@ value: 500
 type: dynamic
 extra:
   initial: 500
-  decay: 50
-  minimum: 50
+  decay: 20
+  minimum: 10
 flags:
-  - Securinets{aLl_7h3_wAYS_l3Ad5_70_0n3_s3CR37}
+  - Securinets{oP3N7OfU_I5_4w35Om3_8U7_83c4R3FuL_WH3n_WORkin9_Wi7h_53Cr3Ts}
 #tags:
 #  - easy
 files:

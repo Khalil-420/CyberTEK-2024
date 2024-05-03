@@ -6,14 +6,15 @@ description: |-
   - It's just not.
   - Why not, you stupid bastard?
 
-
+  `nc a-different-breed.securinets-tekup.tech`
+  
   **author**: GremlinBoi
 value: 500
 type: dynamic
 extra:
   initial: 500
-  decay: 50
-  minimum: 50
+  decay: 20
+  minimum: 10
 flags:
   - Securinets{gOWes%XBgwNL-N-I-C-E}
 #tags:

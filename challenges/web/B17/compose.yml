@@ -7,7 +7,7 @@ services:
       context: ./challenge
       dockerfile: Dockerfile
     ports:
-      - "3001:5000"
+      - "1505:5000"
     environment:
       FLAG: "Securinets{EVERYONE_BETRAYS_US!__JINX}"
  

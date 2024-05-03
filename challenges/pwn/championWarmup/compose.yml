@@ -1,0 +1,11 @@
+version: '3'
+services:
+  deploy:
+    container_name: warmupChampion
+    restart: unless-stopped
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - "1340:5000"
+    privileged: true

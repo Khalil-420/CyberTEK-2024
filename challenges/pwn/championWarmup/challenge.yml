@@ -1,0 +1,20 @@
+name: "championWarmup"
+author: "retr0"
+category: pwn
+description: |-
+  wawrming up like a champ in the newer generation.
+
+  nc 0.0.0.0 1340
+  **author**: retr0
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Securinets{911bf7a785f49712585b83af3676bf3eeb1f685a82e44dc0c65acd5fd84b2b66}
+files:
+  - handout/pwn_championWarmup.7z
+state: visible
+version: "0.1"

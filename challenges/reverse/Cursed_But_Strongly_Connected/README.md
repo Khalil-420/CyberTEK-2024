@@ -1,4 +1,4 @@
-# SBG Secret Formula
+# Cursed But Strongly Connected
 
 ## Description
 

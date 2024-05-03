@@ -1,0 +1,12 @@
+version: '3'
+services:
+  challenge:
+    container_name: Yessyou
+    restart: unless-stopped
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - "2600:5000"
+    environment:
+      FLAG: "Securinets{H4S4G1}"

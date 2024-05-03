@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Profile</title>
+</head>
+<body>
+    <h1>Welcome, {{ user_profile[1] }}</h1>
+    <h2>User Profile</h2>
+    <form action="/profile" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="{{ user_profile[1] }}"><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description">{{ user_profile[3] }}</textarea><br><br>
+
+        <label for="note">Note:</label>
+        <textarea id="note" name="note"></textarea><br><br> <!-- Added input field for notes -->
+
+        <input type="submit" value="Update Profile">
+    </form>
+    
+    <h2>Notes</h2>
+    <ul>
+        {% for note in notes %}
+            <li>{{ note }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Special Users</h2>
+    <h4> You're SPECIAL to us</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for admin in admins %}
+                <tr>
+                    <td>{{ admin[0] }}</td>
+                    <td>{{ admin[1] }}</td> 
+                    <td>{{ admin[3] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

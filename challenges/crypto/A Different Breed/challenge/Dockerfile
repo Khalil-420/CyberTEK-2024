@@ -5,22 +5,13 @@ RUN apt-get update && apt-get install -y socat
 WORKDIR /app
 
 COPY chall.py .
-
 COPY Quotes1.txt .
-
 COPY flag.txt .
-
-
-RUN pip install pycryptodome
-
-
-EXPOSE 8001
-
-
 COPY entrypoint.sh .
 
-
 RUN chmod +x entrypoint.sh
+RUN pip install pycryptodome
 
+EXPOSE 1337
 
-ENTRYPOINT ["./entrypoint.sh"]
+CMD /bin/bash /app/entrypoint.sh

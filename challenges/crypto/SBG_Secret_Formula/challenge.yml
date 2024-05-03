@@ -1,0 +1,21 @@
+name: "SBG Secret Formula"
+author: "M0ud4"
+category: crypto
+description: |-
+   My friend SGB told me that he have a secret formula for a strong RSA 
+
+  **author**: M0ud4
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 50
+flags:
+  - Securinets{ccab14371758aeac7c3a5cb3dbcc3dd42fa7f921857a5c54e0882c2971ebf370}
+#tags:
+#  - Medium
+files:
+  - handout/crypto_SBG-Secret-Formula.zip
+state: visible
+version: "0.1"

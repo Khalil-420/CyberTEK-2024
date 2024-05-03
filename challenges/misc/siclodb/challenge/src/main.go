@@ -48,7 +48,7 @@ func getUserCmd() []string {
 
 func execKeydbCli(command []string) {
     for _, command := range command {
-        cmd := exec.Command("/usr/local/bin/keydb-cli")
+        cmd := exec.Command("/usr/bin/keydb-cli")
         cmd.Stdin = strings.NewReader(command)
         output, err := cmd.CombinedOutput()
         if err != nil {

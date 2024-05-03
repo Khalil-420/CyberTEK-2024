@@ -2,10 +2,8 @@ version: '3'
 services:
   challenge:
     container_name: openheimer
-    restart: unless-stopped
     build:
       context: ./challenge
     ports:
-      - "1010:13337"
-    environment:
-      TF_VAR_SECRET: "Securinets{aLl_7h3_wAYS_l3Ad5_70_0n3_s3CR37}"
+      - "1010:1337"
+    privileged: true

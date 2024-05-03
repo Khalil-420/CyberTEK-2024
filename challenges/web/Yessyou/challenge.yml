@@ -16,6 +16,6 @@ extra:
 flags:
   - Securinets{H4S4G1}
 files:
-  - handout/yessyou.zip
+  - handout/web_yessyou.zip
 state: visible
 version: "0.1"

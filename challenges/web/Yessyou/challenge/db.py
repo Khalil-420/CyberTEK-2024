@@ -1,8 +1,6 @@
 import sqlite3
 import random
 import string
-import os
-
 
 def generate_random_string(length):
     letters_and_digits = string.ascii_letters + string.digits

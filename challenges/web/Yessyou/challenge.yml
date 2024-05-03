@@ -1,0 +1,21 @@
+name: "Yessyou"
+author: "xhalyl"
+category: web
+description: |-
+  Yassuo senpai! I ll become like you one day!
+
+  https://yessyou.securinets-tekup.tech
+  
+  **author**: xhalyl
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{H4S4G1}
+files:
+  - handout/yessyou.zip
+state: visible
+version: "0.1"

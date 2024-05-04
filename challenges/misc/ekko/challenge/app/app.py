@@ -46,3 +46,7 @@ def code():
 @app.errorhandler(Exception)
 def all_exception_handler(error):
     return str(error)
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=1337, debug=False)

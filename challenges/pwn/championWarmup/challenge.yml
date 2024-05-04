@@ -4,7 +4,7 @@ category: pwn
 description: |-
   wawrming up like a champ in the newer generation.
 
-  nc 0.0.0.0 1340
+  `nc pwned.securinets-tekup.tech 6666`
   **author**: retr0
 value: 500
 type: dynamic

@@ -1,0 +1,12 @@
+version: '3'
+services:
+  challenge:
+    container_name: investigator
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - "9005:9005"

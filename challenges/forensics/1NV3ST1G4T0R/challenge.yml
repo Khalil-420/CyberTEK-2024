@@ -1,0 +1,23 @@
+name: "1NV3ST1G4T0R"
+author: "cybereagle2001"
+category: forensics
+description: |-
+  Caythlin discovered a dead body in the lac of Tunis.
+  She found a smartphone with it make sure to investigate 
+  and identify the killer !
+
+  File - https://download.ru/files/qiKKijfg
+  
+  `nc pwned.securinets-tekup.tech 9001`
+     
+  **author**: cybereagle2001
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{w0w_You_4re_The_b3st_1nvestigat0r!!}
+state: visible
+version: "0.1"

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  challenge:
+    container_name: ekko
+    privileged: true
+    restart: unless-stopped
+    build:
+      context: ./challenge
+    ports:
+      - "1400:1337"

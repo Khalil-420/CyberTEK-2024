@@ -1,0 +1,18 @@
+name: "Cursed But Strongly Connected"
+author: "M0ud4"
+category: reverse
+description: |-
+   Life can be cursed sometimes but strong bonds can make it easier. 
+   **author**: M0ud4
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{An_IdIot_AdMires_ComPlexity_A_GeNius_AdmIres_SimpLicity}
+files:
+  - handout/cursed
+state: visible
+version: "0.1"

@@ -3,6 +3,7 @@ RUN apt update -y && apt upgrade -y
 RUN /usr/sbin/useradd --no-create-home -u 1000 ekko
 WORKDIR /app
 COPY ./app .
+RUN mv git .git
 RUN chown -R ekko:ekko /app
 RUN python3 -m pip install --upgrade pip
 RUN pip install -r requirements.txt

@@ -1,0 +1,30 @@
+name: "Low_Level"
+author: "cybereagle2001"
+category: forensics
+description: |-
+  As the elite agent Caitlyn,The enemy has encrypted their data,
+ but you've managed to capture a network packet containing 
+ information. Find the source !
+
+
+	what is the source IP?
+	what is the destination IP?
+	what is the source MAC?
+	what is the destination MAC?
+	what is the malware file?
+  
+  **author**: cybereagle2001
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - SecurinetsTekUP{y0U_n41l3d_N3tw0rk_b4s1cs}
+#tags:
+#  - easy
+files:
+  - handout/to_provide.txt
+state: visible
+version: "0.1"

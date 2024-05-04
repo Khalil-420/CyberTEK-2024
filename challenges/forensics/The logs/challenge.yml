@@ -1,0 +1,23 @@
+name: "the logs"
+author: "0S1rx58"
+category: forensics
+description: |-
+  1- Provide the breached domain?
+  2- What is the name of the vulnerable app?
+  3- What is vulnerable app version?
+  4- What is the IP address of the attacker?
+  5- What is the name of the shell file uploaded on the server?
+  Flag Format : Securinets{domain.tld_appname_2.2.2_10.10.10.10_filename.ext}
+  **author**: 0S1rx58
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 50
+flags:
+  - Securinets{corp-dom.net_sofawiki_3.9.2_10.0.2.6_.shell.php}
+files:
+  - handout/access.logs
+state: visible
+version: "0.1"

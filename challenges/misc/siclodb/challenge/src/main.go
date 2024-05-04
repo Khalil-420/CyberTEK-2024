@@ -10,8 +10,9 @@ import (
 )
 
 var (
-    nopp = `❌❌ Not for you lol ❌❌`
-    blacklist  = []string{"get","flag","keydb","set","getrange","mget","exists","dump","del","hset","hget","substr","append","keys","scan"}
+    nopp = `u think u can heck me 😼❌`
+    notvalid = `uh!`
+    blacklist  = []string{"get","acl","bf","flush","kill","fcall","save","flag","keydb","exec","auth","merge","debug","help","flushdb","client","set","getrange","mget","exists","dump","del","hset","hget","substr","append","keys","scan"}
 )
 
 func isValid(text string) bool {
@@ -21,7 +22,9 @@ func isValid(text string) bool {
 func getUserCmd() []string {
     var command []string
     scanner := bufio.NewScanner(os.Stdin)
+    fmt.Println("-> Enter an empty line to quit!")
     for scanner.Scan() {
+
         user_input := scanner.Text()
 
         if user_input == "" {
@@ -29,7 +32,7 @@ func getUserCmd() []string {
         }
 
         if !isValid(user_input) {
-            fmt.Println(nopp)
+            fmt.Println(notvalid)
             os.Exit(1337)
         }
 
@@ -42,13 +45,14 @@ func getUserCmd() []string {
             }
         }
         command = append(command, user_input)
+        break
     }
     return command
 }
 
 func execKeydbCli(command []string) {
     for _, command := range command {
-        cmd := exec.Command("/usr/local/bin/keydb-cli")
+        cmd := exec.Command("/usr/bin/keydb-cli")
         cmd.Stdin = strings.NewReader(command)
         output, err := cmd.CombinedOutput()
         if err != nil {

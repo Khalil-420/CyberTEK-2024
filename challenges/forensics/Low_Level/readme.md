@@ -11,4 +11,5 @@
 		what is the destination MAC?
 		what is the malware file?
 
-	author : cybereagl2001
+# author :
+cybereagl2001

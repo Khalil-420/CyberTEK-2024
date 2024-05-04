@@ -1,6 +1,6 @@
 #!/bin/sh
 
-YELLOW='\033[38;5;226m'
+YELLOW='\e[0;45m'
 NC='\033[0m'
 
 banner="
@@ -9,6 +9,6 @@ banner="
 \__/ |    |___ | \| |  | |___ |  |  | |___ |  \ 
 "
 
-echo -e "$banner"
+echo  "$banner"
 echo -e "${YELLOW}[*] Hola! welcome to opentofu console.${NC}"
 /app/challenge/openheimer

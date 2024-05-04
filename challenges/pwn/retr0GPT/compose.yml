@@ -7,5 +7,5 @@ services:
       context: ./challenge
       dockerfile: Dockerfile
     ports:
-      - "6000:5000"
+      - "6000:1337"
     privileged: true 

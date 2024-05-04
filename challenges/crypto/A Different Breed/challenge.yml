@@ -6,7 +6,7 @@ description: |-
   - It's just not.
   - Why not, you stupid bastard?
 
-  `nc a-different-breed.securinets-tekup.tech`
+  `nc pwned.securinets-tekup.tech 8001`
   
   **author**: GremlinBoi
 value: 500

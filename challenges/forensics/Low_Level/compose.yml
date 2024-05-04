@@ -1,0 +1,12 @@
+version: '3'
+services:
+  challenge:
+    container_name: low-level
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - "9001:9001"

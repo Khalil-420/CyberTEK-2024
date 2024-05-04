@@ -1,9 +1,11 @@
-name: "siclodb"
+name: "ekko"
 author: "chxmxii"
 category: misc
 description: |-
   `ls` & `cat` made easy.
-  
+
+  https://ekko.securinets-tekup.tech
+
   **author**: chxmxii
 value: 500
 type: dynamic

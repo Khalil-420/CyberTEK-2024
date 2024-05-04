@@ -1,5 +1,0 @@
-# Heimerdinger
-
-## Notes
-
-- @xhalyl: ..

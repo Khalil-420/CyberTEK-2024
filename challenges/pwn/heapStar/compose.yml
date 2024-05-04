@@ -1,0 +1,11 @@
+version: '3'
+services:
+  deploy:
+    container_name: heapStar
+    restart: unless-stopped
+    build:
+      context: ./challenge
+      dockerfile: Dockerfile
+    ports:
+      - "1339:5000"
+    privileged: true

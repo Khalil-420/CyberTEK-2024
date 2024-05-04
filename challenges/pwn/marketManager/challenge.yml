@@ -1,0 +1,20 @@
+name: "marketManager"
+author: "retr0"
+category: pwn
+description: |-
+  escaping the cache is your way out.
+
+  
+  **author**: retr0
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Securinets{de87dffdf4ba61b0ddfb2c4c5022de516e7028cc43b2877b1a7c80afd10ad0e9}
+files:
+  - handout/pwn_marketManager.7z
+state: visible
+version: "0.1"

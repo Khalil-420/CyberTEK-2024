@@ -1,0 +1,3 @@
+I know you're here for the flag, but I can't just hand it over like that! However, if you solve this riddle, you get the flag :))
+
+f(byte) = (15 - byte) modulos 256

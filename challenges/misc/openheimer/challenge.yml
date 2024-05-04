@@ -3,7 +3,9 @@ author: "chxmxii"
 category: misc
 description: |-
   terraform's good, but have you tried opentofu?
-
+  
+  `nc pwned.securinets-tekup.tech 1010`
+  
   **author**: chxmxii
 value: 500
 type: dynamic

@@ -41,6 +41,13 @@ ___
 |   4n6      | Low Level        |  10    |   23   | cybereagle2001|
 |   4n6      | The logs         |  240   |   14   | 0S1rx58|
 |   4n6      | 1NV3ST1G4T0R     |  489   |   4    | cybereagle2001|
+|   rev      | Jsonifier        |  104   |   19   | sonic|
+|   rev      | PyA-ok-PyB-ok-PyC-? | 104 |   19   | AlternoX|
+|   rev      | Cassiopeia       |  422   |   9    | S4L1M|
+|   rev      | Don't Give UP    |  496   |   3    | S4L1M|
+|   rev      | Cursed But Strongly Connected | 500 | 0 | M0ud4|
+|   rev      | DominosPhrydos | 500 | 1 | S4L1M | 
+
 ---
 <p align="center">
   <img src="./logo.png" />

@@ -14,7 +14,7 @@ ___
 | Category   | Challenge        | Points | Solves |  Author |
 |------------|------------------|--------|--------|---------|
 |   misc     |    discord       |   1    |   22   |    -    |
-|   misc     |    PERMS         |   10   |   22   | xhlayel |
+|   misc     |    [PERMS](challenges/misc/PERMS)         |   10   |   22   | xhlayel |
 |   misc     |    HEIMERDIggER  |  146   |   18   | xhlayel, chxmxii |
 |   misc     |    Siclodb       |  500   |   1    | chxmxii |
 |   misc     |    Openheimer    |  440   |   6    | chxmxii |

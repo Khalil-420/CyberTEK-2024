@@ -41,12 +41,12 @@ ___
 |   4n6      | [Low Level](challenges/4n6/Low_Level)        |  10    |   23   | cybereagle2001|
 |   4n6      | [The logs](challenges/4n6/The_logs)         |  240   |   14   | 0S1rx58|
 |   4n6      | [1NV3ST1G4T0R](challenges/4n6/1NV3ST1G4T0R)     |  489   |   4    | cybereagle2001|
-|   rev      | [Jsonifier](challenges/rev/)        |  104   |   19   | sonic|
-|   rev      | [PyA-ok-PyB-ok-PyC-?](challenges/rev/) | 104 |   19   | AlternoX|
-|   rev      | [Cassiopeia](challenges/rev/Cassiopeia)       |  422   |   9    | S4L1M|
-|   rev      | [Don't Give UP](challenges/rev/Dont%20Give%20UP)    |  496   |   3    | S4L1M|
-|   rev      | [Cursed But Strongly Connected](challenges/rev/Cursed_But_Strongly_Connected) | 500 | 0 | M0ud4|
-|   rev      | [DominosPhrydos](challenges/rev/DominosPhrydos) | 500 | 1 | S4L1M |
+|   rev      | [Jsonifier](challenges/reverse/)        |  104   |   19   | sonic|
+|   rev      | [PyA-ok-PyB-ok-PyC-?](challenges/reverse/) | 104 |   19   | AlternoX|
+|   rev      | [Cassiopeia](challenges/reverse/Cassiopeia)       |  422   |   9    | S4L1M|
+|   rev      | [Don't Give UP](challenges/reverse/Dont%20Give%20UP)    |  496   |   3    | S4L1M|
+|   rev      | [Cursed But Strongly Connected](challenges/reverse/Cursed_But_Strongly_Connected) | 500 | 0 | M0ud4|
+|   rev      | [DominosPhrydos](challenges/reverse/DominosPhrydos) | 500 | 1 | S4L1M |
 
 
 ---

@@ -14,17 +14,17 @@ ___
 | Category   | Challenge        | Points | Solves |  Author |
 |------------|------------------|--------|--------|---------|
 |   misc     |    discord       |   1    |   22   |    -    |
-|   misc     |    [PERMS](challenges/misc/PERMS)         |   10   |   22   | xhlayel |
-|   misc     |    [HEIMERDIggER](challenges/misc/heimerdigger)  |  146   |   18   | xhlayel, chxmxii |
+|   misc     |    [PERMS](challenges/misc/PERMS)         |   10   |   22   | xhlayl |
+|   misc     |    [HEIMERDIggER](challenges/misc/heimerdigger)  |  146   |   18   | xhlayl, chxmxii |
 |   misc     |    [Siclodb](challenges/misc/siclodb)       |  500   |   1    | chxmxii |
 |   misc     |    [Openheimer](challenges/misc/openheimer)    |  440   |   6    | chxmxii |
 |   misc     |    [bolbok](challenges/misc/bolbok)        |  470   |   4    | chxmxii |
 |   misc     |    [ekko](challenges/misc/ekko)          |  494   |   7    | chxmxii |
-|   misc     |    [LEE SIN](challenges/misc/LEE%20SIN)       |  481   |   5    | xhlayel |
+|   misc     |    [LEE SIN](challenges/misc/LEE%20SIN)       |  481   |   5    | xhlayl |
 |   web      |    [psyducklove](challenges/web/psyducklove)   |  500   |   0    | j3seer  |
-|   web      |    [B17](challenges/web/B17)           |  352   |   12   | xhlayem |
-|   web      |    [reCURSED](challenges/web/reCURSED)      |  378   |   11   | xhlayel |
-|   web      |    [Random Quotes](challenges/web/Random%20Quotes) |  481   |   5    | xhlayel |
+|   web      |    [B17](challenges/web/B17)           |  352   |   12   | xhlayl |
+|   web      |    [reCURSED](challenges/web/reCURSED)      |  378   |   11   | xhlayl |
+|   web      |    [Random Quotes](challenges/web/Random%20Quotes) |  481   |   5    | xhlayl |
 |   web      |    [Yessuou](challenges/web/Yessuou)       |  489   |   4    | xhalyl, GremlinBoi|
 |   crypto   |    [Classic RSA2](challenges/crypto/Classic%20RSA2)  |  225   |   16   | GermlinBoi|
 |   crypto   |    [warmup](challenges/crypto/warmup)        |  422   |   9    | GermlinBoi| 

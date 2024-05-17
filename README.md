@@ -1,4 +1,4 @@
-# CYBERTTEK CTF-2024
+# CYBERTEK CTF-2024
 
 This repository contains the challenges from Securinets TEK-UP CTF CyberTEK 2024
 

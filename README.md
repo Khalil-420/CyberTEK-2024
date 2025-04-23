@@ -38,9 +38,9 @@ ___
 |   pwn      | [heapStar](challenges/pwn/heapStar)         |  499   |   2    | retr0|
 |   pwn      | [marketManager](challenges/pwn/marketManager)    |  499   |   2    | retr0|
 |   pwn      | [retr0GPT](challenges/pwn/retr0GPT)         |  499   |   2    | retr0|
-|   4n6      | [Low Level](challenges/4n6/Low_Level)        |  10    |   23   | cybereagle2001|
-|   4n6      | [The logs](challenges/4n6/The_logs)         |  240   |   14   | 0xS1rx58|
-|   4n6      | [1NV3ST1G4T0R](challenges/4n6/1NV3ST1G4T0R)     |  489   |   4    | cybereagle2001|
+|   4n6      | [Low Level](challenges/forensics/Low_Level)        |  10    |   23   | cybereagle2001|
+|   4n6      | [The logs](challenges/forensics/The_logs)         |  240   |   14   | 0xS1rx58|
+|   4n6      | [1NV3ST1G4T0R](challenges/forensics/1NV3ST1G4T0R)     |  489   |   4    | cybereagle2001|
 |   rev      | [Jsonifier](challenges/reverse/)        |  104   |   19   | sonic|
 |   rev      | [PyA-ok-PyB-ok-PyC-?](challenges/reverse/) | 104 |   19   | AlternoX|
 |   rev      | [Cassiopeia](challenges/reverse/Cassiopeia)       |  422   |   9    | S4L1M|
